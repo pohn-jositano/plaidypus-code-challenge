@@ -1,0 +1,108 @@
+body { 
+  margin: 0px; 
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.row {
+  width: 100%;
+  height: 200px;
+}
+
+.breadcrumb {
+  display: inline-block;
+  padding: 40px 20px;
+  border-right: 1px solid black;
+}
+
+#top-bar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  z-index: 2;
+}
+
+#main-dashboard {
+  padding-top: 100px;
+}
+
+.business {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.business td {
+  vertical-align: top;
+}
+
+.business-name {
+  text-align: left;
+  width: calc( 100% - 100px );
+}
+
+.business-detail {
+  width: 100px;
+}
+
+.business-detail-button {
+  width: 100%;
+}
+
+.business-image-holder {
+  width: 250px;
+  background-color: rgba( 0, 0, 0, 0.1 );
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.business-image {
+  height: 150px;
+  box-shadow: 2px 2px rgba( 0, 0, 0, 0.2 );
+}
+
+.business-column-1 {
+  width: 30%;
+}
+
+#detail-page {
+  padding-top: 100px;
+}
+
+.business-detail-area {
+  width: 100%;
+  height: 500px;
+  border-collapse: collapse;
+}
+
+.business-detail-area td {
+  vertical-align: top;
+}
+
+.business-detail-area-title {
+  height: 50px;
+}
+
+.business-detail-area-images {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 250px;
+}
+
+.business-detail-area-image {
+  height: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+.business-detail-area-image-holder {
+  height: 450px;
+}

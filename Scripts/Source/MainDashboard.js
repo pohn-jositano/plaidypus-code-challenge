@@ -17,7 +17,7 @@ class MainDashboard extends React.Component {
   }
 
   GetCityData () {
-    jXHR( 'GET', '/yelp-data/city/Orlando' ).then( this.ProcessCityData.bind( this ) );
+    jXHR( 'GET', '/yelp-data/city/Naperville' ).then( this.ProcessCityData.bind( this ) );
   }
 
   ProcessCityData ( CityData ) {
